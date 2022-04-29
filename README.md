@@ -1,2 +1,3 @@
 # DaxBootcamp-20
-Demo data for Dax Bootcamp #20
+Dax Bootcamp #20のデモ用データ置き場です。
+
