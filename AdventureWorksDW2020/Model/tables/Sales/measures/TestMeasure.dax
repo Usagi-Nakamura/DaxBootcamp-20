@@ -1,1 +1,1 @@
-SUMX('Sales', 'Sales'[Order Quantity] * 'Sales'[Unit Price])
+SUMX('Sales', 'Sales'[Order Quantity] * 'Sales'[Unit Price] + 'Sales'[Extended Amount])
