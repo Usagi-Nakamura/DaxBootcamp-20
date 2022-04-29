@@ -1,10 +1,14 @@
 {
   "name": "TestMeasure",
-  "formatString": "\"¥\"#,0.###############;-\"¥\"#,0.###############;\"¥\"#,0.###############",
+  "formatString": "#,0",
   "annotations": [
     {
+      "name": "PBI_ChangedProperties",
+      "value": "[\"FormatString\"]"
+    },
+    {
       "name": "PBI_FormatHint",
-      "value": "{\"currencyCulture\":\"ja-JP\"}"
+      "value": "{\"isDecimal\":true}"
     }
   ]
 }
