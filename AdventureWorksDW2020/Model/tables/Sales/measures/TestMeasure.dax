@@ -1,5 +1,5 @@
 
     SUMX(
         'Sales', 
-        'Sales'[Order Quantity] * 'Sales'[Unit Price]
+        'Sales'[Order Quantity] * 'Sales'[Unit Price] * ( 1 - 'Sales'[Unit Price Discount Pct] )
     )

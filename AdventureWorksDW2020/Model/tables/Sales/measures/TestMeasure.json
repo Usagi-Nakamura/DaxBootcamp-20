@@ -1,6 +1,6 @@
 {
   "name": "TestMeasure",
-  "formatString": "#,0",
+  "formatString": "\\$#,0.00;(\\$#,0.00);\\$#,0.00",
   "annotations": [
     {
       "name": "PBI_ChangedProperties",
@@ -8,7 +8,7 @@
     },
     {
       "name": "PBI_FormatHint",
-      "value": "{\"isDecimal\":true}"
+      "value": "{\"currencyCulture\":\"en-US\"}"
     }
   ]
 }
